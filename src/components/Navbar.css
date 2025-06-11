@@ -1,0 +1,39 @@
+.top-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #10172b;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+  }
+  
+  .top-navbar .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .top-navbar .logo img {
+    height: 30px;
+  }
+  
+  .top-navbar nav a {
+    margin: 0 15px;
+    color: #ccc;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .top-navbar nav a.active,
+  .top-navbar nav a:hover {
+    color: #ffd700;
+  }
+  

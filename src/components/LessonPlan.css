@@ -1,0 +1,26 @@
+.lesson-page {
+  padding: 2rem;
+  color: white;
+}
+
+.lesson-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #00bfff;
+}
+
+.lesson-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.lesson-card {
+  background-color: #111c3a;
+  padding: 1.25rem;
+  border-left: 5px solid #00bfff;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 191, 255, 0.3);
+  white-space: pre-line;
+  font-size: 0.95rem;
+}
